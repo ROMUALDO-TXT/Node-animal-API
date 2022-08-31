@@ -1,0 +1,80 @@
+<style>
+  .card {
+    float: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 60%;
+    margin: 0 auto;
+  }
+
+  .footer {
+    background-color: #ff9d71;
+    width: 100%;
+  }
+
+  .description {
+    background-color: #f5f2f2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+  }
+
+  .description_text {
+    text-align: center;
+    font-size: medium;
+    color: black;
+  }
+
+  .title {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #ff9d71;
+    font-size: larger;
+  }
+
+  .subtitle {
+    text-align: center;
+    font-size: larger;
+    color: black;
+  }
+
+  .footer_message {
+    color: rgba(240, 255, 240, 0.74);
+    text-align: center;
+  }
+
+  .copyright {
+    font-size: small;
+  }
+
+  .container {
+    padding: 2px 16px;
+  }
+</style>
+<div class="card">
+  <div class="container">
+    <div class="title">
+      <h1><b>{{receiverName}}</b></h1>
+    </div>
+    <br />
+    <p class="subtitle">
+      Olá, você recebeu uma mensagem de <b>{{senderName}}</b>
+    </p>
+    <br />
+    <div class="description">
+      <p class="description_text">"{{description}}"</p>
+      <br />
+      <p class="description_text">
+        <b>Dados de contato:</b><br />Email:{{senderEmail}}<br />Whatsapp:{{senderPhone}}
+      </p>
+    </div>
+    <br />
+    <br />
+  </div>
+  <div class="footer">
+    <div class="container">
+      <img style="float: center; padding-top: 10%" src="" alt="Logotipo Campanha animal" />
+      <p class="footer_message copyright">&copy; Campanha Animal 2022-XXXX</p>
+    </div>
+  </div>
+</div>
