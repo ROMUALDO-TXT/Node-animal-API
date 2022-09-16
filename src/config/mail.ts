@@ -15,7 +15,7 @@ export default {
     from: {
       email: 'corbin.hagenes36@ethereal.email',
       //password: n79TcU3mVgz4bEc43v
-      name: 'GetHash test',
+      name: 'test',
     },
   },
 } as IMailConfig;
